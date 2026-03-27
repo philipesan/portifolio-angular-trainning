@@ -1,0 +1,15 @@
+<div class="container">
+    <h2>Accomplishments</h2>
+    <ul>
+        @for (experience of experiences(); track experience.summary.strong) {
+        <details>
+            <summary>
+                
+                <strong>{{ experience.summary.strong }}</strong>
+                <p>{{ experience.summary.p }}</p>
+            </summary>
+            <div [innerHTML]="experience.text"></div>
+        </details>
+        }
+    </ul>
+</div>

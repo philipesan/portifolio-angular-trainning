@@ -1,0 +1,8 @@
+Sableye @ Leftovers
+Ability: Prankster
+EVs: 252 HP / 4 Def / 252 SpD
+Careful Nature
+- Recover
+- Will-O-Wisp
+- Taunt
+- Knock Off

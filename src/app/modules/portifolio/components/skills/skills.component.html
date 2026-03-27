@@ -1,0 +1,10 @@
+<div class="container">
+    <h2>Skills</h2>
+    <ul>
+        @for (skill of skills(); track skill.src) {
+        <li>
+            <img [src]="skill.src" [alt]="skill.alt" loading="lazy" width="22px" height="24px" />
+        </li>
+        }
+    </ul>
+</div>
