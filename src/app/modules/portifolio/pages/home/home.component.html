@@ -1,0 +1,14 @@
+<app-header />
+<main>
+    <app-skills />
+    <app-experience />
+    @defer (on viewport) {
+        <app-projects />
+    } @placeholder {
+        <section class="projects-placeholder">
+            <p>Loady Loady :3</p>
+        </section>
+    } @error {
+        <p>Eto...Bleh?</p>
+    }
+</main>
